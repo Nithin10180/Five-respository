@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dom method</title>
+    </head>
+    <body>
+        <h2>Welcome Page</h2>
+        <h2>My first page</h2>
+
+        <p id="demo"></p>
+
+        <script>
+            var d1 = document.getElementsByTagName("h2");
+            document.getElementById("demo").innerHTML =
+                d1[0].innerHTML + " " + d1[1].innerHTML;
+        </script>
+    </body>
+</html>
